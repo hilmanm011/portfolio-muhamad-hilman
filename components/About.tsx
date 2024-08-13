@@ -38,9 +38,12 @@ const About = (props: Props) => {
         />
 
         <div className="space-y-10 px-0 md:px-10">
-          <h4 className="text-4xl font-semibold sm:text-5xl">Empowering Digital{" "}
+          <h4 className="text-4xl font-semibold sm:text-5xl">Shaping Tomorrow with{" "}
+          <span className="underline decoration-[#F7AB8A]">Innovative</span>{" "}
+           and Scalable Technology Solutions
+          {/* <h4 className="text-4xl font-semibold sm:text-5xl">Empowering Digital{" "}
           <span className="underline decoration-[#F7AB8A]">Transformation</span>{" "}
-          with Robust and Scalable Solutions
+          with Robust and Scalable Solutions */}
           </h4>
           <p className="text-sm">
           As a proficient Full Stack Web Developer with approximately 3 years of hands-on experience, I excel in designing and implementing web applications from conception to deployment. My technical expertise spans across Node.js, React.js, Express.js, Next.js, MongoDB, and MySQL, enabling me to build robust and scalable solutions. I thrive in dynamic environments, adept at both frontend and backend development, and committed to delivering high-quality code and seamless user experiences. My comprehensive skill set and dedication to continuous learning make me a valuable asset in the fast-evolving tech landscape.
