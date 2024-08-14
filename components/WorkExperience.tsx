@@ -31,7 +31,7 @@ const WorkExperience = (props: Props) => {
       ]
     },
     {
-      jobPosition: "Backend Developer Developer",
+      jobPosition: "Backend Developer",
       company: "PT Digital Seucom Indonesia",
       start: "Oktober 2023",
       end: "present",
