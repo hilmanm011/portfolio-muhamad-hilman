@@ -24,13 +24,13 @@ const Home: NextPage = ()=>{
         <WorkExperience />
       </section>
 
-      <section id='skills' className='snap-start'>
+      {/* <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
       <section id='projects' className='snap-start'>
         <Projects />
-      </section>
+      </section> */}
 
       <section id='contact' className='snap-start'>
         <ContactMe />
