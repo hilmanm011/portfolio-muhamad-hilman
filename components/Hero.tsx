@@ -42,9 +42,9 @@ const Hero = (props: Props) => {
                 <div className="pt-5">
                     <button className="heroButton" onClick={() => scrollToSection('about')}>About</button>
                     <button className="heroButton" onClick={() => scrollToSection('experience')}>Experience</button>
-                    <button className="heroButton" onClick={() => scrollToSection('skills')}>Skills</button>
-                    <button className="heroButton" onClick={() => scrollToSection('projects')}>Projects</button>
-                    <button className="heroButton" onClick={() => scrollToSection('contact')}>Contact</button>
+                    {/* <button className="heroButton" onClick={() => scrollToSection('skills')}>Skills</button> */}
+                    {/* <button className="heroButton" onClick={() => scrollToSection('projects')}>Projects</button> */}
+                    {/* <button className="heroButton" onClick={() => scrollToSection('contact')}>Contact</button> */}
                 </div>
             </div>
 

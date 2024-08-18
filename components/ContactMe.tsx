@@ -26,7 +26,7 @@ const ContactMe = (props: Props) => {
     
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl p-10 justify-evenly mx-auto items-center">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl hidden">
+        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-sm hidden">
             Contact
         </h3>
         
@@ -37,17 +37,17 @@ const ContactMe = (props: Props) => {
             </h4> */}
 
             <div className='space-y-10'>
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center justify-center'>
                     <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                     <p className='text-2xl'>+62 896 8413 0569</p>
                 </div>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center justify-center'>
                     <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                     <p className='text-2xl'>muhamadhilman885@gmail.com</p>
                 </div>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center justify-center'>
                     <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                     <p className='text-2xl'>Jakarta - Indonesia</p>
                 </div>
